@@ -15,12 +15,12 @@
         <a href="" class="text-xl text-primary-text brand font-bold">SkillsHub</a>
 
         <ul
-            class="nav hidden z-50 bg-light-blue md:bg-white  px-5 md:px-0 py-10 md:py-0 md:flex flex-col md:flex-row justify-between space-y-5 md:space-y-0 absolute top-0 h-64 md:h-auto  md:top-0 md:relative  md:w-auto md:space-x-10 text-sm font-medium left-0 right-0">
-            <li><a href="#" class="hover:text-blue-700">Find a Job</a></li>
-            <li><a href="#" class="hover:text-blue-700">For Employers</a></li>
-            <li><a href="#" class="hover:text-blue-700">Sign In</a></li>
+            class="nav shadow-lg md:shadow-none hidden z-50 bg-white  px-5 md:px-0 py-10 md:py-0 md:flex flex-col md:flex-row justify-between space-y-5 md:space-y-0 absolute top-0 h-64 md:h-auto  md:top-0 md:relative  md:w-auto md:space-x-10 text-sm font-medium left-0 right-0">
+            <li><a href="job-post-employers.html" class="hover:text-blue-700">Find a Job</a></li>
+            <li><a href="employer-homepage.html" class="hover:text-blue-700">For Employers</a></li>
+            <li><a href="signin-candidate.html" class="hover:text-blue-700">Sign In</a></li>
             <li>
-                <a href="#" class="primary-btn rounded py-3 px-5 mt-10 block md:inline w-full">Sign Up</a>
+                <a href="signup-candidates.html" class="primary-btn rounded py-4 md:py-3 px-5 mt-10 block md:inline w-full">Sign Up</a>
             </li>
             <span class="absolute md:hidden toggle-close top-0 right-5">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -41,19 +41,19 @@
                 <h1 class="text-5xl font-extrabold text-primary-text">Recruitment <br> made easy.</h1>
                 <p class="text-sm pt-8 pb-10">SkillsHub guarantees you a start in your career success by
                     getting employed easily and providing Employers with best candidates required. </p>
-                <a href="#" class="primary-btn py-4 px-7 w-64 block mb-10">Get Started</a>
-                <p class="border-b-2 inline text-sm pb-1 border-primary-b text-primary-text font-semibold">Already a
+                <a href="#" class="primary-btn py-4 px-7 w-44 md:w-64 block mb-5 md:mb-7">Get Started</a>
+                <p class="border-b-2 inline text-xs  md:text-sm pb-1 border-primary-b text-primary-text font-semibold">Already a
                     member? <a href="#" class="hover:text-red-500">Log In</a></p>
             </div>
-            <div class="relative md:mt-14 lg:mt-auto"
-                style="background: url(../assets/img/Hero\ Image.svg)top center/contain no-repeat;">
+            <div class="relative mt-14 md:mt-14 lg:mt-auto"
+                style="background: url(./assets/img/Hero\ Image.svg)top center/contain no-repeat;">
                 <div class="h-full -mt-6">
-                    <img src="../assets/img/pexels-kampus-production-5940856-removebg-preview 1.svg" alt=""
+                    <img src="./assets/img/pexels-kampus-production-5940856-removebg-preview 1.svg" alt=""
                         class="object-contain w-full">
                 </div>
             </div>
         </section>
-        <section class="find-jobs container mb-10">
+        <section class="find-jobs container mt-14 mb-14">
             <form>
                 <div
                     class="flex flex-col space-y-5 md:space-y-0 md:flex-row md:space-x-10 bg-light-blue px-5 md:px-10 py-10 rounded shadow-lg">
@@ -174,7 +174,7 @@
                         <li>Access to competent talent</li>
                         <li>Seamless recruitment process</li>
                     </ul>
-                    <a href="#" class="secondary-btn block w-full mt-10 py-3 px-6">Job Seeker Sign Up</a>
+                    <a href="#" class="secondary-btn block w-full mt-10 py-3 px-6">Employer Sign Up</a>
                 </div>
             </div>
         </section>
@@ -186,21 +186,21 @@
                     <a href="#" class="primary-btn py-3 px-6">Get Started</a>
                 </div>
             </div>
-            <div class="py-20 bg-dark-blue">
-                <div class="container flex flex-col md:flex-row justify-center">
+            <div class="py-10 bg-dark-blue">
+                <div class="container flex flex-col md:flex-row items-center justify-center">
                     <div class="md:w-1/3">
                         <div class="text-center md:text-left mb-10">
-                            <h1 class="text-2xl md:text-5xl font-bold leading-none text-white">Be the first to Know</h1>
+                            <h1 class="text-2xl md:text-3xl font-semibold leading-none text-white">Be the first to Know</h1>
                             <p class="text-white mt-3">Join our news letter</p>
                         </div>
                     </div>
-                    <form class="flex-1 md:px-14">
+                    <form class="md:px-14">
                         <div class="flex flex-row space-x-5 md:space-x-10">
-                            <input type="text" placeholder="First Name" class="h-12 mb-5 w-1/2 rounded px-5">
-                            <input type="text" placeholder="Last Name" class="h-12 w-1/2 rounded px-5">
+                            <input type="text" placeholder="First Name" class="h-12 mb-5 w-1/2 rounded px-5 text-sm">
+                            <input type="text" placeholder="Last Name" class="h-12 w-1/2 rounded px-5 text-sm">
                         </div>
-                        <input type="email" placeholder="Email address" class="h-12 my-5 rounded px-5 w-full">
-                        <div>
+                        <input type="email" placeholder="Email address" class="h-12 my-5 rounded px-5 w-full text-sm">
+                        <div class="text-sm">
                             <p class="text-white">can we email you?</p>
                             <input type="checkbox" id="email-me" class="mt-5">
                             <label for="email-me" class="text-white">Yes, I’d like to receive marketing emails from
@@ -209,8 +209,8 @@
                     </form>
                 </div>
             </div>
-            <footer class="bg-darker-blue py-14">
-               <div class="container flex flex-col space-y-7 lg:space-y-0 lg:flex-row justify-between lg:space-x-24">
+            <footer class="bg-darker-blue py-10">
+               <div class="container flex flex-col space-y-7 lg:space-y-0 lg:flex-row justify-between lg:space-x-24 text-xs">
                 <div>
                     <h1 class="font-bold text-2xl text-white">SkillsHub</h1>
                     <p class="text-white py-4">Connect with us on:</p>
@@ -242,25 +242,25 @@
                     </div>
                     <p class="text-white mt-4 text-xs">2021 SkillsHub</p>
                 </div>
-                <div class="flex flex-col space-y-7 md:space-y-0 md:flex-row md:space-x-24 justify-between">
+                <div class="flex flex-col space-y-7 md:space-y-0 md:flex-row md:space-x-24 justify-between text-xs">
                     <div>
-                        <h1 class="text-xl font-bold text-white mb-5">Contact</h1>
-                        <ul class="text-white flex flex-col space-y-2 text-sm">
+                        <h1 class="text-base md:text-xl font-bold text-white mb-5">Contact</h1>
+                        <ul class="text-white flex flex-col space-y-2 text-xs">
                             <li><a href="#">hello@skillshub.com</a></li>
                             <li><a href="#">+234 703 467 7166</a></li>
                             <li><a href="#">Innovation Hub Wuse,Abuja.</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h1 class="text-xl font-bold text-white mb-5">About Us</h1>
-                        <ul class="text-white flex flex-col space-y-2 text-sm">
+                        <h1 class="text-base md:text-xl font-bold text-white mb-5">About Us</h1>
+                        <ul class="text-white flex flex-col space-y-2 text-xs">
                             <li><a href="#">How it Works</a></li>
                             <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h1 class="text-xl font-bold text-white mb-5">Help Centre</h1>
-                        <ul class="text-white flex flex-col space-y-2 text-sm">
+                        <h1 class="text-base md:text-xl font-bold text-white mb-5">Help Centre</h1>
+                        <ul class="text-white flex flex-col space-y-2 text-xs">
                             <li><a href="#">Complaints</a></li>
                             <li><a href="#">support@skillshub.com</a></li>
                             <li><a href="#">FAQs</a></li>
