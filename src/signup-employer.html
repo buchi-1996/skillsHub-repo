@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp Employer</title>
+</head>
+
+<body class="h-full container">
+    <h1 class="text-xl font-bold text-primary-text py-5">SkillsHub</h1>
+    <div class="text-center my-14">
+        <h1 class="text-2xl md:text-4xl font-bold text-primary-text">Create an employer account</h1>
+        <p class="text-sm">Set up your employer account and fast-track your recruitment process</p>
+    </div>
+    <form>
+        <h1 class="text-xl font-bold text-primary-text text-center">PERSONAL INFORMATION</h1>
+        <div class="border py-5 md:py-10 px-5 md:px-14 my-10 md:w-3/4 mx-auto shadow-lg">
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:space-x-10 my-5">
+                <div class="form-group w-full">
+                    <label for="first-name" class="text-sm font-bold">First Name</label>
+                    <input type="text" id="first-name"
+                        class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+                </div>
+                <div class="form-group w-full">
+                    <label for="last-name" class="text-sm font-bold">Last Name</label>
+                    <input type="text" id="last-name"
+                        class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+                </div>
+            </div>
+            <div class="form-group mb-5">
+                <label for="email" class="text-sm font-bold">Email Address</label>
+                <input type="email" id="email"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="form-group mb-5">
+                <label for="password" class="text-sm font-bold">Password</label>
+                <input type="password" id="password"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+        </div>
+        <h1 class="text-xl font-bold text-primary-text text-center">COMPANY DETAILS</h1>
+        <div class="border py-5 md:py-10 px-5 md:px-14 my-10 md:w-3/4 mx-auto shadow-lg">
+            <div class="form-group mb-5">
+                <label for="company" class="text-sm font-bold">Company name*</label>
+                <input type="text" id="company"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="form-group mb-5">
+                <label for="industry" class="text-sm font-bold">Industry*</label>
+                <input type="text" id="industry"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="form-group mb-5">
+                <label for="size" class="text-sm font-bold">Company size</label>
+                <input type="number" id="size"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="form-group mb-5">
+                <label for="website" class="text-sm font-bold">Website URL*</label>
+                <input type="url" id="website"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:space-x-10 my-5">
+                <div class="form-group w-full">
+                    <label for="country" class="text-sm font-bold">Country*</label>
+                    <input type="text" id="country"
+                        class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+                </div>
+                <div class="form-group w-full">
+                    <label for="state" class="text-sm font-bold">State</label>
+                    <input type="text" id="state"
+                        class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+                </div>
+            </div>
+            <div class="form-group w-full mb-5">
+                <label for="role" class="text-sm font-bold">Your role*</label>
+                <textarea id="role" rows="10" class="border block w-full border-gray-700 rounded"></textarea>
+            </div>
+            <div class="form-group mb-5">
+                <label for="phone" class="text-sm font-bold">Contact phone number*</label>
+                <input type="number " id="phone"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="form-group mt-8 mb-5">
+                <input type="submit" value="Create an account" class=" primary-btn py-3 block w-full px-10">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

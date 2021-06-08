@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JOB DETAILS</title>
+</head>
+
+<body class="h-full container">
+    <h1 class="text-xl font-bold text-primary-text py-5">SkillsHub</h1>
+    <div class="text-center my-14">
+        <h1 class="text-2xl md:text-4xl font-bold text-primary-text">The Hub for Employers</h1>
+        <p class="text-sm">What’s your current talent need? Let’s find it</p>
+    </div>
+    <form>
+        <h1 class="text-xl font-bold text-primary-text text-center">JOB DETAILS</h1>
+        <div class="border py-5 md:py-10 px-5 md:px-14 my-10 md:w-3/4 mx-auto shadow-lg">
+            <div class="form-group mb-5">
+                <label for="job-title" class="text-sm font-bold">Job title*</label>
+                <input type="text" id="job-title"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="form-group w-full mb-5">
+                <label for="job-summary" class="text-sm font-bold">Job summary*</label>
+                <textarea id="job-summary" rows="10" class="border block w-full border-gray-700 rounded"></textarea>
+            </div>
+            <div class="form-group mb-5">
+                <label for="skills" class="text-sm font-bold">Skills required*</label>
+                <input type="text" id="skills"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="form-group w-full mb-5">
+                <label for="job-description" class="text-sm font-bold">Job description*</label>
+                <textarea id="job-description" rows="10" class="border block w-full border-gray-700 rounded"></textarea>
+            </div>
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:space-x-10 my-5">
+                <div class="form-group w-full">
+                    <label for="employment-level" class="text-sm font-bold">Employment level*</label>
+                        <select id="employment-level" class="block w-full h-14 border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium rounded-md">
+                            <option value="Select type">Select level</option>
+                            <option value="Level 1">Level 1</option>
+                        </select>
+                </div>
+                <div class="form-group w-full">
+                    <label for="employment-type" class="text-sm font-bold">Employment type*</label>
+                        <select id="employment-type" class="block w-full h-14 border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium rounded-md">
+                            <option value="Select type">Select type</option>
+                            <option value="type 1">type 1</option>
+                        </select>
+                </div>
+            </div>
+            <div class="form-group mb-5">
+                <label for="Years-experience" class="text-sm font-bold">Years of experience*</label>
+                <select id="employment-type" class="block w-full h-14 border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium rounded-md">
+                    <option value="Select years">Select years</option>
+                    <option value="year 1">type 1</option>
+                </select>
+            </div>
+            <div class="form-group my-10">
+                <h4 class="font-bold text-sm text-primary-text mb-5">Remote work?</h4>
+                <div class="flex flex-row items-center space-x-16">
+                    <span><input type="radio" id="yes" name="remote-work"> <label for="yes" class="text-xs md:text-sm">Yes</label></span>
+                    <span><input type="radio" id="no" name="remote-work"> <label for="no" class="text-xs md:text-sm">No</label></span>
+                </div>
+            </div>
+            <div class="form-group my-10">
+                <h4 class="font-bold text-sm text-primary-text mb-5">Easy apply?</h4>
+                <div class="flex flex-row items-center space-x-16">
+                    <span><input type="radio" id="easy-apply-yes" name="easy-apply"> <label for="easy-apply-yes" class="text-xs md:text-sm">Yes</label></span>
+                    <span><input type="radio" id="easy-apply-no" name="easy-apply"> <label for="easy-apply-no" class="text-xs md:text-sm">No</label></span>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center md:space-x-10 my-5">
+                <div class="form-group w-full">
+                    <label for="country" class="text-sm font-bold">Country*</label>
+                    <input type="text" id="country"
+                        class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+                </div>
+                <div class="form-group w-full">
+                    <label for="state" class="text-sm font-bold">State</label>
+                    <input type="text" id="state"
+                        class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+                </div>
+            </div>
+            <div class="form-group mb-5">
+                <label for="salary" class="text-sm font-bold">Salary range</label>
+                <select id="salary" class="block w-full h-14 border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium rounded-md">
+                    <option value="Select range">Salary range</option>
+                    <option value="year 1">100 - 200</option>
+                </select>
+            </div>
+            <div class="form-group mb-5">
+                <label for="job-deadline" class="text-sm font-bold">Deadline for this job*</label>
+                <input type="date" id="job-deadline"
+                    class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
+            </div>
+            <div class="form-group my-10">
+                <h4 class="font-bold text-sm text-primary-text mb-5">How do you want to receive your applications?</h4>
+                <div class="flex flex-row items-center space-x-16">
+                    <span><input type="checkbox" id="by-dashboard" name="receive-application"> <label for="by-dashboard" class="text-xs md:text-sm">Dashboard</label></span>
+                    <span><input type="checkbox" id="by-email" name="receive-application"> <label for="by-email" class="text-xs md:text-sm">Email address</label></span>
+                </div>
+            </div>
+            <div class="form-group mt-8 mb-5 flex flex-row items-center justify-between">
+                <button class="text-primary-text font-bold text-sm border border-primary-b rounded py-3 px-4">Preview Job Post</button>
+                <input type="submit" value="Post Job" class="text-white bg-primary-color font-bold text-sm border border-primary-b rounded py-3 px-4">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+/* @font-face {
+    font-family: 'Galyon-bold';
+    src: url(./fonts/Galyon-Regular.otf) format('otf');
+  } */
+
+  body {
+    @apply font-custom;
+  }
+
+  .primary-btn {
+    @apply bg-primary-color rounded shadow-lg font-medium text-center text-white;
+  }
+
+  .secondary-btn {
+    @apply bg-green-light rounded shadow-lg font-bold text-center text-white;
+  }
+  
+
+
+@tailwind utilities;
