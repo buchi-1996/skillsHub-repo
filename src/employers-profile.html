@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Employers Profile</title>
+</head>
+<body class="h-full">
+    <button class="hidden cursor-default absolute click-outside  inset-0 focus:outline-none h-full w-full z-50"></button>
+    <header class="py-5 container relative flex flex-row justify-between items-center">
+        <a href="index.html" class="text-xl text-primary-text brand font-bold">SkillsHub</a>
+        <ul
+            class="nav hidden shadow-lg md:shadow-none px-5 md:px-0 space-y-6 md:space-y-0 py-10 md:py-0 md:flex flex-col-reverse md:flex-row justify-between  absolute top-0 h-64 md:h-auto bg-white md:bg-transparent  md:top-0 md:relative  md:w-auto md:space-x-10 text-sm font-medium left-0 right-0">
+            <li><a href="job-post-employers.html" class="hover:text-blue-700">Find a Job</a></li>
+            <li><a href="employer-homepage.html" class="hover:text-blue-700">For Employers</a></li>
+            <li>
+                <Span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+              </svg>
+            </Span>
+        </li>
+            <li class="relative z-50">
+                <Span class="user-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </Span>
+                <div class="hidden transition-all delay-100 500ms user-tab w-48 rounded shadow-lg absolute z-50 md:-left-36 bg-white">
+                    <ul class="text-xs py-2 box-content">
+                        <li class="hover:bg-gray-50 cursor-pointer text-black"><a href="#" class="px-4 py-3 block w-full">iamacquaye@gmail.com</a></li>
+                        <li class="hover:bg-gray-50 cursor-pointer text-black"><a href="candidates-profile.html" class="px-4 py-3 block w-full">Profile</a></li>
+                        <li class=" hover:bg-gray-50 cursor-pointer text-black"><a href="job-post.html" class="px-4 py-3 block w-full">My Jobs</a></li>
+                        <li class="hover:bg-gray-50 cursor-pointer text-black"><a href="application-page.html" class="px-4 py-3 block w-full">Notifications</a></li>
+                    </ul>
+                </div>
+            </li>
+            <span class="absolute md:hidden toggle-close top-0 right-5 mt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+            </span>
+        </ul>
+        <span class="block md:hidden toggle-open">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </span>
+    </header>
+    <main>
+        <section class="container my-10 flex flex-col space-y-7">
+            <h4 class="font-bold text-xl text-primary-text">My Jobs</h4>
+            <div class="my-5 border-b flex flex-row space-x-14 text-sm">
+                <p class="border-b-4 cursor-pointer border-primary-b text-primary-text font-bold">Posted  Jobs</p>
+            </div>
+            <p class="text-sm mb-10">Created Job offers</p>
+            <div class="w-full flex flex-col md:flex-row items-center md:space-x-20 space-y-5 md:space-y-0">
+                <div class="w-full lg:w-1/2 xl:w-1/3 flex flex-row space-x-14 justify-between items-center text-sm bg-light-blue px-10 py-4 rounded">
+                    <p class="font-semibold">Oblark Security</p>
+                    <p>Front End Developer</p>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3  flex flex-row justify-between space-x-14 items-center text-sm bg-light-blue px-10 py-4 rounded">
+                    <p class="font-semibold">Oblark Security</p>
+                    <p>IOS Developer</p>
+                </div>
+            </div>
+            <div class="w-full flex flex-col md:flex-row items-center md:space-x-20 space-y-5 md:space-y-0">
+                <div class="w-full lg:w-1/2 xl:w-1/3 flex flex-row space-x-14 justify-between items-center text-sm bg-light-blue px-10 py-4 rounded">
+                    <p class="font-semibold">Oblark Security</p>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3 flex flex-row justify-between space-x-14 items-center text-sm bg-light-blue px-10 py-4 rounded">
+                    <p class="font-semibold">Oblark Security</p>
+                    <p>Backend Engineer</p>
+                </div>
+            </div>
+            <button class="text-sm bg-light-blue py-3 px-10 rounded w-40 shadow-lg">See more</button>
+            </section>
+        </main>
+        <script src="js/main.js"></script>
+    </body>
+    </html>
