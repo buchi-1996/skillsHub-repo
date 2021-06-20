@@ -28,7 +28,16 @@
                 <textarea id="job-summary" rows="10" class="border block w-full border-gray-700 rounded"></textarea>
             </div>
             <div class="form-group mb-5">
-                <label for="skills" class="text-sm font-bold">Skills required*</label>
+                <label for="skills" class="text-sm font-bold">Core Skills required*</label>
+                <div class="flex flex-wrap space-x-4 items-center justify-start h-14 w-full rounded-md border border-gray-700 bg-white px-5 text-sm font-medium">
+                    <p class="bg-gray-50 py-1 px-2 shadow text-xs">Wordpress<button class="text-xs font-semibold ml-3">x</button></p>
+                    <p class="bg-gray-50 py-1 px-2 shadow text-xs">JavaScript<button class="text-xs font-semibold ml-3">x</button></p>
+                    <p class="bg-gray-50 py-1 px-2 shadow text-xs">HTML<button class="text-xs font-semibold ml-3">x</button></p>
+                </div>
+                
+            </div>
+            <div class="form-group mb-5">
+                <label for="skills" class="text-sm font-bold">Other Skills*</label>
                 <input type="text" id="skills"
                     class="h-14 w-full rounded-md border focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-gray-700 bg-white px-4 text-sm font-medium">
             </div>
@@ -104,9 +113,9 @@
                     <span><input type="checkbox" id="by-email" name="receive-application"> <label for="by-email" class="text-xs md:text-sm">Email address</label></span>
                 </div>
             </div>
-            <div class="form-group mt-8 mb-5 flex flex-row items-center justify-between">
-                <button class="text-primary-text font-bold text-sm border border-primary-b rounded py-3 px-4">Preview Job Post</button>
-                <input type="submit" value="Post Job" class="text-white bg-primary-color font-bold text-sm border border-primary-b rounded py-3 px-4">
+            <div class="form-group mt-8 mb-5 flex flex-col space-y-10 sm:space-y-0 sm:flex-row items-center justify-between">
+                <a href="job-preview-employer.html" class="text-white bg-primary-color font-bold text-base border border-primary-b rounded py-3 px-10 w-full sm:w-auto text-center">Preview Job Post</a>
+                <a href="employers-dashboard.html" class="text-white bg-primary-color font-bold text-base border border-primary-b rounded py-3 px-10 w-full sm:w-auto text-center">post Job</a>
             </div>
         </div>
     </form>
